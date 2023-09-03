@@ -1,0 +1,15 @@
+{
+  "name": "my-todo-app",
+  "version": "1.0.0",
+  "description": "A simple To-Do List application",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "body-parser": "^1.19.0"
+  }
+}
+
