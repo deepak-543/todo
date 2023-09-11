@@ -1,4 +1,0 @@
-#cloud-config
-
-runcmd:
-  - echo "task-bastion_host" > /etc/hostname
