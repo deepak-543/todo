@@ -7,9 +7,9 @@ const app = express();
 const port = 3000;
 
 const pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: 'Vermajii@123',
+  host: 'todo-db.cllga0tifl8a.us-east-2.rds.amazonaws.com',
+  user: 'todo_user',
+  password: '-b9>8mB:KB|Ym|NcDE}bt9scyL4|',
   database: 'todo_app',
 });
 
